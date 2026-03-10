@@ -58,20 +58,35 @@
 		//
 		// Search paths are relative to the exe directory\..\
 		//
-		SearchPaths
-		{
-			// These are optional language paths. They must be mounted first, which is why there are first in the list.
-			// *LANGUAGE* will be replaced with the actual language name. If not running a specific language, these paths will not be mounted
-			Game_Language		citadel_*LANGUAGE*
+	
 
-			// These are optional low-violence paths. They will only get mounted if you're in a low-violence mode.
-			Game_LowViolence	citadel_lv
-			Game                citadel/addons
-			Mod                 citadel
-          		Write               citadel          
-			Game				citadel
-			Game				core
-		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Deadlock Mod Manager - Start
+
+		SearchPaths
+        {  
+            Game_Language       citadel_*LANGUAGE*
+            Game                citadel/addons
+            Mod                 citadel
+            Write               citadel          
+            Game                citadel
+            Mod                 core
+            Write               core
+            Game                core        
+        }
+// Deadlock Mod Manager - End
 	}
 	
 	MaterialSystem2
@@ -639,7 +654,7 @@
 "hud_free_cursor" "0"                // Reduces UI input delay in minimap/spectator modes (not sure if this is true)
 "citadel_camera_soft_collision" "0"
 "citadel_camera_wobble_disable" "1"
-"citadel_unit_status_use_new" "0"
+"citadel_unit_status_use_new" "1"
 "mm_idle_show_warning_at_s" "999"   // How many seconds to wait before showing the idle warning dialog
 "citadel_hideout_ball_show_juggle_count" "1"
 "citadel_hideout_ball_show_juggle_fx" "1"
