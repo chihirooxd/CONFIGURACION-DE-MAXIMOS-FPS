@@ -4,4 +4,6 @@ hola mu buenas a tods gracias por pasarte a mirar
 
 primero el gameinfo.gi
 copenlo y pagenlo en C:\Program Files (x86)\Steam\steamapps\common\Deadlock\game\citadel
-uy si renplasenlo por su antiguo no va a pasar nada malo
+renplasenlo por su antiguo no va a pasar nada malo
+
+El pak91 es para la config de ROBLOX si la quieren tratar dropeen el archivo en el mod manager de deadlock
