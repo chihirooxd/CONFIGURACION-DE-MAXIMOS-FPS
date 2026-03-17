@@ -2,6 +2,8 @@
 hola muy buenas a todos gracias por pasarte a mirar
  aqui voy a explicar donde va todo y que es lo que yo recomimindo
 
+ (QUIERO ACLARAR QUE ESTA VEZ YO MISMO MODIFIQUE LA CONFIG DE KAIZUCHANERU PARA UNA CONFIG MAS CONPETITIVA)
+
 primero el gameinfo.gi
 copenlo y pagenlo en C:\Program Files (x86)\Steam\steamapps\common\Deadlock\game\citadel
 renplasenlo por su antiguo no va a pasar nada malo
