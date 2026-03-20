@@ -3,6 +3,8 @@ hola muy buenas a todos gracias por pasarte a mirar
  aqui voy a explicar donde va todo y que es lo que yo recomimindo
 
  (QUIERO ACLARAR QUE ESTA VEZ YO MISMO MODIFIQUE LA CONFIG DE KAIZUCHANERU PARA UNA CONFIG MAS CONPETITIVA)
+ Y  QUE AL PRICIPIO CUANDO ENTRES AL JUEGO VA A VER UNOS TIRONES DE FPS PERO ESO ES POR QUE AY UN COMANDO QUE HACE QUE LOS SHADERS SE PRECARGUEN
+ Y SOLO ES EN LOS PRIMEROS SEGUNDOS CUANDO ENTRAS AL JUEGO DESPUES YA TIENES LOS MAXIMOS FPS
 
 primero el gameinfo.gi
 copenlo y pagenlo en C:\Program Files (x86)\Steam\steamapps\common\Deadlock\game\citadel
