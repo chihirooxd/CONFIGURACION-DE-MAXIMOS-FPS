@@ -6,6 +6,9 @@ hola muy buenas a todos gracias por pasarte a mirar
  Y  QUE AL PRICIPIO CUANDO ENTRES AL JUEGO VA A VER UNOS TIRONES DE FPS PERO ESO ES POR QUE AY UN COMANDO QUE HACE QUE LOS SHADERS SE PRECARGUEN
  Y SOLO ES EN LOS PRIMEROS SEGUNDOS CUANDO ENTRAS AL JUEGO DESPUES YA TIENES LOS MAXIMOS FPS
 
+ OTRA COSA RECOMENDADO DE MI PARTE REACER TODA LA CONFIGURACION CADA QUE HAIGA UNA ACTUALIZACION 
+
+
 primero el gameinfo.gi
 copenlo y pagenlo en C:\Program Files (x86)\Steam\steamapps\common\Deadlock\game\citadel
 renplasenlo por su antiguo no va a pasar nada malo
