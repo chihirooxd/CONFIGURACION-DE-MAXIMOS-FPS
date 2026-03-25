@@ -522,7 +522,7 @@
 
 // ================ SKY & ENVIRONMENT ================
 "r_draw3dskybox" "0"
-"r_drawskybox" "1"                  // Set to 0 to disable skybox
+"r_drawskybox" "0"                  // Set to 0 to disable skybox
 "r_monitor_3dskybox" "0"
 "r_world_wind_strength" "0"
 "sv_waterdist" "0"
@@ -689,7 +689,7 @@
 "r_texturefilteringquality" "0"
 "r_max_portal_render_targets" "2"   // Set how many amount to render portals
 "mat_colcorrection_disableentities" "0" // Disable map color-correction entities
-r_citadel_disable_npr_lighting true
+"r_gbuffer_disable_npr_lighting" "true"
 "r_citadel_npr_outlines" "false"
 
 // test
