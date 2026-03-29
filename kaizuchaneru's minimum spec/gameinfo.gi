@@ -58,20 +58,24 @@
 		//
 		// Search paths are relative to the exe directory\..\
 		//
-		SearchPaths
-		{
-			// These are optional language paths. They must be mounted first, which is why there are first in the list.
-			// *LANGUAGE* will be replaced with the actual language name. If not running a specific language, these paths will not be mounted
-			Game_Language		citadel_*LANGUAGE*
+	
 
-			// These are optional low-violence paths. They will only get mounted if you're in a low-violence mode.
-			Game_LowViolence	citadel_lv
-			Game                citadel/addons
-			Mod                 citadel
-          		Write               citadel          
-			Game				citadel
-			Game				core
-		}
+
+
+// Deadlock Mod Manager - Start
+
+		SearchPaths
+        {  
+            Game_Language       citadel_*LANGUAGE*
+            Game                citadel/addons
+            Mod                 citadel
+            Write               citadel          
+            Game                citadel
+            Mod                 core
+            Write               core
+            Game                core        
+        }
+// Deadlock Mod Manager - End
 	}
 	
 	MaterialSystem2
@@ -385,30 +389,30 @@
 	SceneSystem
 	{
 		GpuLightBinner 1
-		FogCachedShadowAtlasWidth 2048
-		FogCachedShadowAtlasHeight 2048
-		FogCachedShadowTileSize 128
-		GpuLightBinnerSunLightFastPath 1
-		CSMCascadeResolution 2048
-		SunLightManagerCount 0
-		SunLightManagerCountTools 0
-		DefaultShadowTextureWidth 6144
-		DefaultShadowTextureHeight 6144
-		DynamicShadowResolution 1
+        FogCachedShadowAtlasWidth 0
+        FogCachedShadowAtlasHeight 0
+        FogCachedShadowTileSize 0
+        GpuLightBinnerSunLightFastPath 1
+        CSMCascadeResolution 0
+        SunLightManagerCount 0
+        SunLightManagerCountTools 0
+        DefaultShadowTextureWidth 0
+        DefaultShadowTextureHeight 0
+        DynamicShadowResolution 0
 
-		TransformTextureRowCount	1024
-		TransformTextureRowCountToolsMode 6144
-		SunLightMaxCascadeSize		4
-		SunLightShadowRenderMode	Depth
-		LayerBatchThresholdFullsort 20
-		NonTexturedGradientFog		1
-		// Temp till I can add support in citadel shaders
-		DisableLateAllocatedTransformBuffer 1
-		MinimumLateAllocatedVertexCacheBufferSizeMB 64
-		CubemapFog 1
-		VolumetricFog 1
-		FrameBufferCopyFormat R11G11B10F
-		Tonemapping 0
+        TransformTextureRowCount    1024
+        TransformTextureRowCountToolsMode 6144
+        SunLightMaxCascadeSize        4
+        SunLightShadowRenderMode    Depth
+        LayerBatchThresholdFullsort 20
+        NonTexturedGradientFog        0
+        // Temp till I can add support in citadel shaders
+        DisableLateAllocatedTransformBuffer 1
+        MinimumLateAllocatedVertexCacheBufferSizeMB 64
+        CubemapFog 0
+        VolumetricFog 0
+        FrameBufferCopyFormat R11G11B10F
+        Tonemapping 0
 		
 		WellKnownLightCookies
 		{
@@ -522,7 +526,7 @@
 
 // ================ SKY & ENVIRONMENT ================
 "r_draw3dskybox" "0"
-"r_drawskybox" "0"                  // Set to 0 to disable skybox
+"r_drawskybox"            "false"                  // Set to 0 to disable skybox
 "r_monitor_3dskybox" "0"
 "r_world_wind_strength" "0"
 "sv_waterdist" "0"
