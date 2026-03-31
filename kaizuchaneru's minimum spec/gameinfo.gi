@@ -1,3 +1,4 @@
+
 "GameInfo"
 {
 	game 		"citadel"
@@ -835,7 +836,26 @@
 "sc_max_framebuffer_copies_per_layer" "0" //no idea what this does ngl
 "r_strip_invisible_during_sceneobject_update" "1" //Default: false<br>
 "fs_async_threads" "8"
-citadel_npc_force_animate_every_tick        "false"
+"citadel_npc_force_animate_every_tick"        "false"
+
+"ai_async_queue_max_jobs" "8"
+"ai_think_interval_lod_med" "0.4"
+"ai_think_interval_lod_low" "1"
+"ai_gather_conditions_async" "true"
+"ai_foot_sweep_enable" "false"
+"wind_system_temporal_smoothing" "false"
+"wind_system_default_resolution_xy" "64"
+"lb_precomputed_shadowmap_enable" "0"
+"lb_shadow_map_cull_empty_mixed" "true"
+"r_citadel_fog_quality" "0"
+"r_citadel_gpu_culling_shadows" "1" //test, was 0
+"r_hair_shadowtile" "false"
+"vis_sunlight_enable" "0"
+"snd_use_baked_occlusion" "1"
+"citadel_per_weapon_per_surface_impact_effects" "false"
+
+"r_particle_model_per_thread_count" "48"
+"r_limit_particle_job_duration" "1"
 
 
 
