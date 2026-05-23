@@ -16,7 +16,7 @@
 	"setting.mat_vsync"		"0"
 	"setting.r_low_latency"		"1"
 	"setting.fps_max"		"0"
-	"setting.mat_viewportscale"		"1.000000"
+	"setting.mat_viewportscale"		"1.000000"     (RECOMENDADO DE MI PARTE 0.70 O  0.80)
 	"setting.r_citadel_antialiasing"		"0"
 	"setting.r_citadel_upscaling"		"0"
 	"setting.r_citadel_dlss_settings_mode"		"0"
